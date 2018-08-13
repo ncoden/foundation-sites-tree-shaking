@@ -1,0 +1,46 @@
+{
+  "name": "foundation-sites-build",
+  "version": "0.0.1",
+  "description": "",
+  "main": "dist/foundation-sites-build.js",
+  "scripts": {
+    "build": "gulp build"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/ncoden/foundation-sites-build.git"
+  },
+  "keywords": [],
+  "author": "Nicolas Coden <nicolas@ncoden.fr>",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ncoden/foundation-sites-build/issues"
+  },
+  "homepage": "https://github.com/ncoden/foundation-sites-build",
+  "devDependencies": {
+    "@babel/core": "^7.0.0-rc.1",
+    "@babel/polyfill": "^7.0.0-rc.1",
+    "@babel/preset-env": "^7.0.0-rc.1",
+    "babel-loader": "^8.0.0-beta.4",
+    "del": "2.2.2",
+    "foundation-sites": "github:ncoden/foundation-sites#chore/tree-shaking",
+    "gulp": "3.9.1",
+    "gulp-eslint": "3.0.1",
+    "gulp-filter": "4.0.0",
+    "gulp-livereload": "3.8.1",
+    "gulp-load-plugins": "1.2.4",
+    "gulp-plumber": "1.1.0",
+    "gulp-rename": "1.2.2",
+    "gulp-sourcemaps": "1.6.0",
+    "gulp-uglify": "2.0.0",
+    "jquery": "^3.3.1",
+    "json-loader": "0.5.4",
+    "lodash": "^4.17.10",
+    "webpack": "^4.16.5",
+    "webpack-stream": "^5.1.1"
+  },
+  "babelBoilerplateOptions": {
+    "entryFileName": "foundation-sites-build.js",
+    "mainVarName": "main"
+  }
+}
